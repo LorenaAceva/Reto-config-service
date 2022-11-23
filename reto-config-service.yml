@@ -1,2 +1,10 @@
-product:
-  product-name: hola Mundo!!
+server:
+  port: 8081
+saludo:
+  saludo-name: Hola Mundo!!
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
